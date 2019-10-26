@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.MaterialComponents.Light">
+<!--         Customize your theme here.-->
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorError">#C51162</item>
+        <item name="colorOnError">#FFFFFF</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#212121</item>
+        <item name="android:colorBackground">@color/colorOnBackground</item>
+        <item name="colorOnBackground">#212121</item>
+    </style>
+
+    <style name="Widget.MyApp.MyButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+    </style>
+</resources>
